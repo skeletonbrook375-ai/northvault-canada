@@ -1,5 +1,5 @@
 ﻿/**
- * NORTHVAULT CANADA - VINTAGE SEALED ARCHIVES
+ * NORTHVAULTS CANADA - VINTAGE SEALED ARCHIVES
  * Core Application Engine & Data Layer
  * 20 Verified Archival Displays (1999-2004)
  */
@@ -1025,14 +1025,14 @@ class AppState {
           <strong>ðŸ‡¨ðŸ‡¦ Interac e-Transfer Instructions:</strong><br>
           Recipient: <strong>payments@northvault.ca</strong><br>
           Security Question: Order Reference Number (${orderRef})<br>
-          Password: <strong>NORTHVAULT</strong><br>
+          Password: <strong>NORTHVAULTS</strong><br>
           <em>*Your sealed box is reserved in our vault for 24 hours awaiting transfer confirmation.</em>
         `;
       } else if (this.selectedPayMethod === 'wire') {
         successInstructions.innerHTML = `
           <strong>Institutional Wire & Escrow Details:</strong><br>
           Bank: Royal Bank of Canada (RBC Main Branch, Toronto)<br>
-          Beneficiary: NorthVault Collectibles Canada Inc.<br>
+          Beneficiary: NorthVaults Collectibles Canada Inc.<br>
           Transit: 00002 â€¢ Account: 104-992-1<br>
           Reference Note: <strong>${orderRef}</strong>
         `;
