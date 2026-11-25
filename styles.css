@@ -530,7 +530,7 @@ body {
   margin-bottom: 20px;
 }
 
-.acrylic-container {
+.showcase-container {
   background: rgba(255, 255, 255, 0.02);
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
@@ -540,7 +540,7 @@ body {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05);
 }
 
-.acrylic-reflections {
+.showcase-reflections {
   position: absolute;
   top: 0;
   left: -100%;
@@ -900,7 +900,7 @@ body {
   transform: scale(1.05) rotate(-1deg);
 }
 
-.acrylic-overlay-tag {
+.showcase-overlay-tag {
   position: absolute;
   bottom: 8px;
   right: 12px;
@@ -2167,7 +2167,7 @@ body {
   100% { transform: translateX(200%); }
 }
 
-.acrylic-edge-sheen {
+.showcase-edge-sheen {
   position: absolute;
   top: 0;
   left: 0;
