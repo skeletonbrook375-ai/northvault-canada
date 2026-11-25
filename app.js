@@ -1,4 +1,4 @@
-/**
+﻿/**
  * NORTHVAULT CANADA - VINTAGE SEALED ARCHIVES
  * Core Application Engine & Data Layer
  * 20 Verified Archival Displays (1999-2004)
@@ -11,15 +11,16 @@ const PRODUCTS = [
     year: 1999,
     era: 'classic',
     title: '1999 Generation-I Base Booster Box',
-    subtitle: 'Original 1st Print English Display • 36 Sealed Packs',
+    subtitle: 'Original 1st Print English Display â€¢ 36 Sealed Packs',
     priceCAD: 24850,
     packCount: 36,
-    weight: '782.4g (±0.2g Verified)',
+    weight: '782.4g (Â±0.2g Verified)',
     acrylicGrade: 'Archival 9.6',
     vaultLocation: 'Toronto Central Depository (Bay St.)',
     provenance: 'Single-owner estate collection (Calgary, AB), original 1999 case break',
     sealType: 'Original Clear Poly-Wrap with Distinct Factory Center Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107596.jpg',
     colorTheme: {
       primary: '#1e3a8a',
       secondary: '#3b82f6',
@@ -41,7 +42,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility (Burrard St.)',
     provenance: 'Acquired from original Canadian hobby retailer distribution inventory',
     sealType: 'Tight Factory Shrink with Horizontal Overlap Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107597.jpg',
     colorTheme: {
       primary: '#047857',
       secondary: '#10b981',
@@ -55,7 +57,7 @@ const PRODUCTS = [
     year: 1999,
     era: 'classic',
     title: '1999 Fossilized Ancient Beast Sealed Booster Box',
-    subtitle: 'First Edition Print Run Display • 36 Sealed Booster Packs',
+    subtitle: 'First Edition Print Run Display â€¢ 36 Sealed Booster Packs',
     priceCAD: 14200,
     packCount: 36,
     weight: '779.6g (Archival Verified)',
@@ -63,7 +65,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Archived in climate vault since 2004 (Montreal, QC)',
     sealType: 'Factory Overlap Shrink with Authenticity Hologram Stamp',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107601.jpg',
     colorTheme: {
       primary: '#9a3412',
       secondary: '#ea580c',
@@ -77,7 +80,7 @@ const PRODUCTS = [
     year: 1999,
     era: 'classic',
     title: '1999 Primal Jungle Expedition Booster Display',
-    subtitle: 'First Edition Stamp Sealed Box • 36 Unsearched Packs',
+    subtitle: 'First Edition Stamp Sealed Box â€¢ 36 Unsearched Packs',
     priceCAD: 15800,
     packCount: 36,
     weight: '781.0g (Standard Tolerance)',
@@ -85,7 +88,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Purchased from Canadian distributor Waddingtons archive lot',
     sealType: 'Original Factory Poly-Wrap with Intact Seams',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107598.jpg',
     colorTheme: {
       primary: '#14532d',
       secondary: '#16a34a',
@@ -99,7 +103,7 @@ const PRODUCTS = [
     year: 2000,
     era: 'classic',
     title: '2000 Secret Syndicate Rocket Sealed Booster Box',
-    subtitle: 'Dark Vintage Villain Edition • 36 Factory Foil Packs',
+    subtitle: 'Dark Vintage Villain Edition â€¢ 36 Factory Foil Packs',
     priceCAD: 18900,
     packCount: 36,
     weight: '783.2g (Certified)',
@@ -107,7 +111,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Private vault consignment, Edmonton collector',
     sealType: 'Original Shrink Wrap with Sealed Bottom Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/209436.jpg',
     colorTheme: {
       primary: '#4c1d95',
       secondary: '#8b5cf6',
@@ -121,7 +126,7 @@ const PRODUCTS = [
     year: 2000,
     era: 'classic',
     title: '2000 Gym Leaders Guild Booster Display (Wave 1)',
-    subtitle: 'Regional Masters First Print Run • 36 Foil Booster Packs',
+    subtitle: 'Regional Masters First Print Run â€¢ 36 Foil Booster Packs',
     priceCAD: 17400,
     packCount: 36,
     weight: '780.8g (Lab Calibrated)',
@@ -129,7 +134,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Original sealed case break from Toronto collector convention 2002',
     sealType: 'Tight Poly-Wrap with Crisp Corner Seals',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/208707.jpg',
     colorTheme: {
       primary: '#0369a1',
       secondary: '#0284c7',
@@ -143,7 +149,7 @@ const PRODUCTS = [
     year: 2000,
     era: 'classic',
     title: '2000 Gym Masters Final Challenge Booster Box',
-    subtitle: 'Saffron & Viridian Elite Wave • 36 Sealed Booster Packs',
+    subtitle: 'Saffron & Viridian Elite Wave â€¢ 36 Sealed Booster Packs',
     priceCAD: 19800,
     packCount: 36,
     weight: '782.1g (Standard Specification)',
@@ -151,7 +157,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Stored in museum storage box since 2001 (Victoria, BC)',
     sealType: 'Original Factory Seam with Holographic Tamper Proofing',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/276588.jpg',
     colorTheme: {
       primary: '#701a75',
       secondary: '#a21caf',
@@ -165,7 +172,7 @@ const PRODUCTS = [
     year: 2000,
     era: 'neo',
     title: '2000 Neo-Genesis Second Era Booster Box',
-    subtitle: '1st Edition Second-Generation Launch Display • 36 Packs',
+    subtitle: '1st Edition Second-Generation Launch Display â€¢ 36 Packs',
     priceCAD: 21500,
     packCount: 36,
     weight: '785.6g (Verified Weight)',
@@ -173,7 +180,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Sealed case break from Ontario collector vault',
     sealType: 'Original Factory Polyethylene Wrap with Serial Stamp',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/193334.jpg',
     colorTheme: {
       primary: '#b45309',
       secondary: '#f59e0b',
@@ -187,7 +195,7 @@ const PRODUCTS = [
     year: 2001,
     era: 'neo',
     title: '2001 Neo-Discovery Ancient Ruins Booster Display',
-    subtitle: 'Mystic Hieroglyphs Series Display • 36 Sealed Packs',
+    subtitle: 'Mystic Hieroglyphs Series Display â€¢ 36 Sealed Packs',
     priceCAD: 12900,
     packCount: 36,
     weight: '778.9g (Standard Specification)',
@@ -195,7 +203,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'BC private collection archive',
     sealType: 'Original Manufacturer Shrink with Back Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/634445.jpg',
     colorTheme: {
       primary: '#0f766e',
       secondary: '#14b8a6',
@@ -209,7 +218,7 @@ const PRODUCTS = [
     year: 2001,
     era: 'neo',
     title: '2001 Neo-Revelation Legendary Beasts Booster Box',
-    subtitle: 'First Edition Triple Elemental Guardians Display • 36 Packs',
+    subtitle: 'First Edition Triple Elemental Guardians Display â€¢ 36 Packs',
     priceCAD: 23400,
     packCount: 36,
     weight: '781.4g (Standard Tolerance)',
@@ -217,7 +226,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Private archival vault in Ottawa, Ontario',
     sealType: 'High-Tension Factory Poly-Wrap with Distinct Perforations',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/563754.jpg',
     colorTheme: {
       primary: '#1d4ed8',
       secondary: '#60a5fa',
@@ -231,7 +241,7 @@ const PRODUCTS = [
     year: 2002,
     era: 'neo',
     title: '2002 Neo-Destiny Light & Shadow Booster Box',
-    subtitle: 'First Edition Dual Alignment Series • 36 Sealed Packs',
+    subtitle: 'First Edition Dual Alignment Series â€¢ 36 Sealed Packs',
     priceCAD: 31000,
     packCount: 36,
     weight: '786.2g (Certified Accurate)',
@@ -239,7 +249,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Direct estate acquisition, pristine single-case vault archive',
     sealType: 'Flawless Original Wrap with Overlapping Factory Weld',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/691155.jpg',
     colorTheme: {
       primary: '#312e81',
       secondary: '#6366f1',
@@ -253,7 +264,7 @@ const PRODUCTS = [
     year: 2002,
     era: 'classic',
     title: '2002 Legendary Archive Fireworks Foil Booster Box',
-    subtitle: 'Original Reverse Holographic Display • 36 Factory Foil Packs',
+    subtitle: 'Original Reverse Holographic Display â€¢ 36 Factory Foil Packs',
     priceCAD: 29500,
     packCount: 36,
     weight: '783.5g (Standard Tolerance)',
@@ -261,7 +272,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Acquired from Canadian hobby dealer retrospective inventory',
     sealType: 'Original Factory Shrink with Wizards Center Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107610.jpg',
     colorTheme: {
       primary: '#c026d3',
       secondary: '#e879f9',
@@ -275,7 +287,7 @@ const PRODUCTS = [
     year: 2002,
     era: 'ex',
     title: '2002 E-Reader Expedition Base Display Box',
-    subtitle: 'Barcode Technology Dot-Code Era • 36 Sealed Booster Packs',
+    subtitle: 'Barcode Technology Dot-Code Era â€¢ 36 Sealed Booster Packs',
     priceCAD: 16400,
     packCount: 36,
     weight: '792.0g (Standard E-Series Mass)',
@@ -283,7 +295,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Acquired from Ottawa hobby specialty archive',
     sealType: 'Original Heavy Gauge Poly-Wrap Seal',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/185731.jpg',
     colorTheme: {
       primary: '#1e293b',
       secondary: '#38bdf8',
@@ -297,7 +310,7 @@ const PRODUCTS = [
     year: 2003,
     era: 'ex',
     title: '2003 Aquapolis Coastal City E-Reader Booster Box',
-    subtitle: 'Dual Holo Crystal Card Era Display • 36 Factory Packs',
+    subtitle: 'Dual Holo Crystal Card Era Display â€¢ 36 Factory Packs',
     priceCAD: 34500,
     packCount: 36,
     weight: '794.2g (Certified E-Reader Mass)',
@@ -305,7 +318,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Sealed Canadian hobby shop distribution case break (Calgary, AB)',
     sealType: 'Tight Poly-Wrap with Distinct Factory Barcode Seam',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107599.jpg',
     colorTheme: {
       primary: '#0e7490',
       secondary: '#06b6d4',
@@ -319,7 +333,7 @@ const PRODUCTS = [
     year: 2003,
     era: 'ex',
     title: '2003 Skyridge Mountain Vista E-Reader Booster Box',
-    subtitle: 'The Ultra-Scarce Final E-Series Printing • 36 Sealed Packs',
+    subtitle: 'The Ultra-Scarce Final E-Series Printing â€¢ 36 Sealed Packs',
     priceCAD: 46000,
     packCount: 36,
     weight: '793.8g (Verified Calibration)',
@@ -327,7 +341,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Single owner private vault since 2003, Toronto financial district',
     sealType: 'Original High-Density Shrink Wrap with Clean Corners',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/107600.jpg',
     colorTheme: {
       primary: '#4338ca',
       secondary: '#818cf8',
@@ -341,7 +356,7 @@ const PRODUCTS = [
     year: 2003,
     era: 'ex',
     title: '2003 EX-Ruby/Sapphire Holographic Booster Box',
-    subtitle: 'Gen-3 Premier Release Display • 36 Factory Foil Packs',
+    subtitle: 'Gen-3 Premier Release Display â€¢ 36 Factory Foil Packs',
     priceCAD: 28900,
     packCount: 36,
     weight: '788.4g (Standard Precision Tolerance)',
@@ -349,7 +364,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Sealed since factory arrival in Toronto in 2003',
     sealType: 'Impeccable Factory Overlap Seam with High-Gloss Wrap',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/98559.jpg',
     colorTheme: {
       primary: '#be123c',
       secondary: '#0284c7',
@@ -363,7 +379,7 @@ const PRODUCTS = [
     year: 2003,
     era: 'ex',
     title: '2003 EX-Sandstorm Desert Mirage Booster Box',
-    subtitle: 'Arid Dunes Series Display • 36 Factory Sealed Packs',
+    subtitle: 'Arid Dunes Series Display â€¢ 36 Factory Sealed Packs',
     priceCAD: 18200,
     packCount: 36,
     weight: '786.5g (Standard Tolerance)',
@@ -371,7 +387,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Consigned from Alberta vintage archive',
     sealType: 'Tight Poly-Wrap with Distinct Shrink Points',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/98564.jpg',
     colorTheme: {
       primary: '#854d0e',
       secondary: '#ca8a04',
@@ -385,7 +402,7 @@ const PRODUCTS = [
     year: 2003,
     era: 'ex',
     title: '2003 EX-Dragon Ancient Sky Reptilian Booster Box',
-    subtitle: 'Draconic Sovereigns Edition • 36 Factory Sealed Packs',
+    subtitle: 'Draconic Sovereigns Edition â€¢ 36 Factory Sealed Packs',
     priceCAD: 22500,
     packCount: 36,
     weight: '787.9g (Certified Mass)',
@@ -393,7 +410,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Preserved by Montreal collector since original hobby shipment',
     sealType: 'Original Factory Poly-Wrap with Precision Seams',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/98518.jpg',
     colorTheme: {
       primary: '#b91c1c',
       secondary: '#dc2626',
@@ -407,7 +425,7 @@ const PRODUCTS = [
     year: 2004,
     era: 'ex',
     title: '2004 Magma vs Aqua Dual-Faction Booster Box',
-    subtitle: 'Clash of Elements Era Display • 36 Factory Sealed Packs',
+    subtitle: 'Clash of Elements Era Display â€¢ 36 Factory Sealed Packs',
     priceCAD: 19500,
     packCount: 36,
     weight: '786.1g (Archival Verified)',
@@ -415,7 +433,8 @@ const PRODUCTS = [
     vaultLocation: 'Vancouver Vault Facility',
     provenance: 'Western Canada collector syndicate archive',
     sealType: 'Original Factory Poly-Wrap with Lateral Weld',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/98551.jpg',
     colorTheme: {
       primary: '#7f1d1d',
       secondary: '#0369a1',
@@ -429,7 +448,7 @@ const PRODUCTS = [
     year: 2004,
     era: 'ex',
     title: '2004 EX-Remastered Kanto Origin Booster Box',
-    subtitle: 'Golden Heritage Leaf & Flame Display • 36 Sealed Foil Packs',
+    subtitle: 'Golden Heritage Leaf & Flame Display â€¢ 36 Sealed Foil Packs',
     priceCAD: 26800,
     packCount: 36,
     weight: '789.0g (Standard Specification)',
@@ -437,7 +456,8 @@ const PRODUCTS = [
     vaultLocation: 'Toronto Central Depository',
     provenance: 'Ontario estate vault, sealed from distributor case in 2004',
     sealType: 'Original Factory High-Gloss Poly-Wrap',
-    dimensions: '14.2cm × 12.4cm × 5.8cm',
+    dimensions: '14.2cm Ã— 12.4cm Ã— 5.8cm',
+    cdnImage: 'https://product-images.tcgplayer.com/fit-in/437x437/98945.jpg',
     colorTheme: {
       primary: '#15803d',
       secondary: '#16a34a',
@@ -467,7 +487,7 @@ const PROVINCIAL_TAX_RATES = {
 class AppState {
   constructor() {
     this.currency = 'CAD';
-    this.exchangeRateUSD = 0.735; // 1 CAD ≈ 0.735 USD
+    this.exchangeRateUSD = 0.735; // 1 CAD â‰ˆ 0.735 USD
     this.cart = [];
     this.activeEra = 'all';
     this.activeSort = 'featured';
@@ -567,10 +587,29 @@ class AppState {
     `;
   }
 
+  renderBoxMedia(product, isHero = false) {
+    const heroClass = isHero ? 'hero-box-display' : '';
+    const fallback = product.cdnImage || 'https://product-images.tcgplayer.com/fit-in/437x437/107596.jpg';
+    return `
+      <div class="real-box-display ${heroClass}">
+        <img src="images/box-${product.id}.jpg" onerror="this.onerror=null; this.src='${fallback}'" alt="${product.title}" class="real-box-img" loading="lazy">
+        <div class="vault-tamper-strip">
+          <div class="hologram-shimmer"></div>
+          <span class="vault-seal-text">🔒 NORTHVAULT CANADIAN ARCHIVE • 36 PACKS</span>
+        </div>
+        <div class="acrylic-edge-sheen"></div>
+        <div class="corner-bracket top-left"></div>
+        <div class="corner-bracket top-right"></div>
+        <div class="corner-bracket bottom-left"></div>
+        <div class="corner-bracket bottom-right"></div>
+      </div>
+    `;
+  }
+
   renderHeroBox() {
     const heroBox = document.getElementById('heroVisualBox');
     if (heroBox && PRODUCTS[0]) {
-      heroBox.innerHTML = this.generateBoxSVG(PRODUCTS[0], true);
+      heroBox.innerHTML = this.renderBoxMedia(PRODUCTS[0], true);
     }
   }
 
@@ -630,14 +669,12 @@ class AppState {
     grid.innerHTML = items.map(p => `
       <div class="product-card" data-id="${p.id}">
         <div class="card-top-badges">
-          <span class="era-badge">${p.year} • ${p.era.toUpperCase()}</span>
-          <span class="location-badge">🍁 Toronto/Van Vault</span>
+          <span class="era-badge">${p.year} â€¢ ${p.era.toUpperCase()}</span>
+          <span class="location-badge">ðŸ Toronto/Van Vault</span>
         </div>
 
         <div class="card-image-box" onclick="app.openQuickView(${p.id})">
-          <div class="box-svg-holder">
-            ${this.generateBoxSVG(p)}
-          </div>
+          ${this.renderBoxMedia(p)}
           <span class="acrylic-overlay-tag">8mm UV Case Included</span>
         </div>
 
@@ -645,9 +682,9 @@ class AppState {
           <h3 class="card-title" onclick="app.openQuickView(${p.id})">${p.title}</h3>
 
           <div class="card-specs-list">
-            <span class="spec-pill">📦 36 Packs</span>
-            <span class="spec-pill">⚖️ ${p.weight.split(' ')[0]}</span>
-            <span class="spec-pill">🛡️ Grade ${p.acrylicGrade}</span>
+            <span class="spec-pill">ðŸ“¦ 36 Packs</span>
+            <span class="spec-pill">âš–ï¸ ${p.weight.split(' ')[0]}</span>
+            <span class="spec-pill">ðŸ›¡ï¸ Grade ${p.acrylicGrade}</span>
           </div>
 
           <p class="card-desc">${p.desc}</p>
@@ -690,8 +727,8 @@ class AppState {
     content.innerHTML = `
       <div class="quickview-grid">
         <div class="qv-image-box">
-          <div style="width: 100%; max-width: 280px;">
-            ${this.generateBoxSVG(product, true)}
+          <div style="width: 100%; max-width: 320px;">
+            ${this.renderBoxMedia(product, true)}
           </div>
         </div>
 
@@ -895,13 +932,11 @@ class AppState {
         container.innerHTML = this.cart.map(item => `
           <div class="cart-item-row">
             <div class="cart-item-img">
-              <div style="width: 48px; height: 48px;">
-                ${this.generateBoxSVG(item)}
-              </div>
+              <img src="images/box-${item.id}.jpg" onerror="this.onerror=null; this.src='${item.cdnImage}'" class="cart-mini-box-img" alt="${item.title}">
             </div>
             <div>
               <div class="cart-item-title">${item.title}</div>
-              <div class="cart-item-sub">Qty: ${item.quantity} • 36 Packs • ${item.acrylicGrade}</div>
+              <div class="cart-item-sub">Qty: ${item.quantity} â€¢ 36 Packs â€¢ ${item.acrylicGrade}</div>
               <div class="cart-item-price">${this.formatPrice(item.priceCAD * item.quantity)}</div>
             </div>
             <button class="cart-item-remove" onclick="app.removeFromCart(${item.id})" aria-label="Remove item">
@@ -992,7 +1027,7 @@ class AppState {
     if (successInstructions) {
       if (this.selectedPayMethod === 'interac') {
         successInstructions.innerHTML = `
-          <strong>🇨🇦 Interac e-Transfer Instructions:</strong><br>
+          <strong>ðŸ‡¨ðŸ‡¦ Interac e-Transfer Instructions:</strong><br>
           Recipient: <strong>payments@northvault.ca</strong><br>
           Security Question: Order Reference Number (${orderRef})<br>
           Password: <strong>NORTHVAULT</strong><br>
@@ -1003,7 +1038,7 @@ class AppState {
           <strong>Institutional Wire & Escrow Details:</strong><br>
           Bank: Royal Bank of Canada (RBC Main Branch, Toronto)<br>
           Beneficiary: NorthVault Collectibles Canada Inc.<br>
-          Transit: 00002 • Account: 104-992-1<br>
+          Transit: 00002 â€¢ Account: 104-992-1<br>
           Reference Note: <strong>${orderRef}</strong>
         `;
       } else {
@@ -1122,3 +1157,4 @@ let app;
 window.addEventListener('DOMContentLoaded', () => {
   app = new AppState();
 });
+
