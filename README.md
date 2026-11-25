@@ -1,4 +1,4 @@
-# NORTHVAULT CANADA • Vintage Sealed Booster Box Vault
+# NORTHVAULTS CANADA • Vintage Sealed Booster Box Vault
 
 An archival e-commerce web platform designed for selling vintage sealed collectible card booster boxes in Canada (1999–2004) without infringing copyrights or trademarks.
 
