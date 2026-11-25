@@ -589,14 +589,9 @@ class AppState {
 
   renderBoxMedia(product, isHero = false) {
     const heroClass = isHero ? 'hero-box-display' : '';
-    const fallback = product.cdnImage || 'https://product-images.tcgplayer.com/fit-in/437x437/107596.jpg';
     return `
       <div class="real-box-display ${heroClass}">
-        <img src="images/box-${product.id}.jpg" onerror="this.onerror=null; this.src='${fallback}'" alt="${product.title}" class="real-box-img" loading="lazy">
-        <div class="vault-tamper-strip">
-          <div class="hologram-shimmer"></div>
-          <span class="vault-seal-text">🔒 NORTHVAULT CANADIAN ARCHIVE • 36 PACKS</span>
-        </div>
+        <img src="images/box-${product.id}.jpg" onerror="this.onerror=null; this.src='box-${product.id}.jpg'" alt="${product.title}" class="real-box-img" loading="lazy">
         <div class="acrylic-edge-sheen"></div>
         <div class="corner-bracket top-left"></div>
         <div class="corner-bracket top-right"></div>
@@ -932,7 +927,7 @@ class AppState {
         container.innerHTML = this.cart.map(item => `
           <div class="cart-item-row">
             <div class="cart-item-img">
-              <img src="images/box-${item.id}.jpg" onerror="this.onerror=null; this.src='${item.cdnImage}'" class="cart-mini-box-img" alt="${item.title}">
+              <img src="images/box-${item.id}.jpg" onerror="this.onerror=null; this.src='box-${item.id}.jpg'" class="cart-mini-box-img" alt="${item.title}">
             </div>
             <div>
               <div class="cart-item-title">${item.title}</div>
